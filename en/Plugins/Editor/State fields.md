@@ -92,4 +92,6 @@ export function reset(view: EditorView) {
 
 ## Next steps
 
-Provide [[Decorations]] from your state fields to change how to display the document.
+In order to provide decorations from the Calculator plugin example, you will need to add another `StateField` which keeps a `DecorationSet` object (the changes to the document). To connect the two `StateFields`, 
+
+Next, provide [[Decorations]] from your state fields to change how to display the document.
